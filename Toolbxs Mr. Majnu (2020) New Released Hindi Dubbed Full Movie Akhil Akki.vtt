@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Subtitle Converter | Free tool</title>
+    <meta name="keywords" content="Online, Subtitle, Closed Captions, Converter, srt, stl, scc, ass, ssa, xml, ttml, qt, txt, vtt, dfxp, smi, csv, sub, rt, sbv">     <meta name="description" content="Online subtitle converter between different standard subtitle file formats such as srt, stl, scc, ass, ssa, xml, ttml, qt, txt, vtt, dfxp, smi, csv, sub, rt, sbv"> 
+            <link href="https://d1tfzqz2829nun.cloudfront.net/css/app.css?v=b24533140cab2e1b380ca5d9324a27e3" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Doppio+One" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://d1tfzqz2829nun.cloudfront.net/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://d1tfzqz2829nun.cloudfront.net/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://d1tfzqz2829nun.cloudfront.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://d1tfzqz2829nun.cloudfront.net/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://d1tfzqz2829nun.cloudfront.net/favicon-16x16.png">
+
+    <script>
+        global_currency_symbol = '$';
+        global_currency_exchange_rate = 1;
+    </script>
+
+    
+        
+
+    <meta itemprop="image" content="https://gotranscript.com/img/pages/subtitle-converter/social-share.png">
+
+
+
+
+
+
+
+<meta name="twitter:image:src" content="https://gotranscript.com/img/pages/subtitle-converter/social-share.png">
+
+
+
+
+
+<meta property="og:image" content="https://gotranscript.com/img/pages/subtitle-converter/social-share.png">
+
+
+
+
+    <style>
+        .subtitle-converter__title {
+            margin: 90px 0;
+            font-family: Doppio One, sans-serif;
+            font-size: 40px;
+            color: #fffdff;
+            text-align: center;
+            font-weight: normal;
+        }
+        .subtitle-converter__upload__container {
+            height: 100%;
+            padding: 46px 40px;
+            border: 1px solid #e3e5ed;
+            border-top: none;
+        }
+        .subtitle-converter__grey-block {
+            position: relative;
+            height: 131px;
+            background: #ebedf4;
+        }
+        .subtitle-converter__grey-block__img {
+            position: absolute;
+            top: -46px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .subtitle-converter__grey-block__text {
+            padding-top: 76px;
+            color: #444f5b;
+            font-size: 23px;
+            font-family: Doppio One, sans-serif;
+            text-align: center;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+        .subtitle-converter__expandable-formats {
+            display: none;
+            padding: 0 0 10px 30px;
+            color: #94a5b4;
+        }
+        /* sm */
+        @media (max-width: 991px) {
+          .subtitle-converter__title {
+              margin: 45px 0;
+              font-size: 30px;
+          }
+        }
+        /* xs */
+        @media (max-width: 767px) {
+            .subtitle-converter__upload__container {
+                padding: 20px;
+            }
+        }
+
+        .subtitle-converter__ad {
+            position: relative;
+            height: 100%;
+            padding: 80px 20px 34px;
+            background: #ebedf4;
+        }
+        .subtitle-converter__ad__img {
+            position: absolute;
+            top: -46px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .subtitle-converter__ad__title {
+            margin: 0;
+            font-size: 30px;
+            color: #555555;
+            line-height: 1;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: Doppio One, sans-serif;
+            font-weight: normal;
+        }
+        .subtitle-converter__ad__text {
+            margin: 5px 0 25px;
+            line-height: 1;
+            color: #999999;
+            font-size: 23px;
+            text-align: center;
+            font-family: Doppio One, sans-serif;
+        }
+        /* xs */
+        @media (max-width: 767px) {
+            .subtitle-converter__ad {
+                padding-top: 34px;
+            }
+        }
+
+        .subtitle-converter__ad-orange {
+            background-color: #f9b000;
+        }
+        .subtitle-converter__ad-orange .subtitle-converter__ad__title, .subtitle-converter__ad-orange .subtitle-converter__ad__text {
+            color: #fff;
+        }
+        .subtitle-converter__ad-orange .dashboard__box__button {
+            background-color: #fff;
+            color: #373a41;
+            margin-left: auto;
+            margin-right: auto;
+            width: 185px;
+        }
+    </style>
+
+</head>
+<body class="">
+
+    
+            <div class="site-header" >
+
+    
+    <div class="top-header hidden-xs hidden-sm" style="border-bottom: 1px solid #e5e5e5; padding-bottom: 5px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-2">
+
+                </div>
+                <div class="col-sm-12 col-md-10">
+                    <div class="menu">
+                                                                                                            
+                            <a class="menu-link menu-link-place_order" href="https://gotranscript.com/upload/transcriptions">
+                                <div class="menu-small-icon icon-mplace_order"></div>
+                                Place Your Order
+                            </a>
+                            <a class="menu-link menu-link-login" href="https://gotranscript.com/login">
+                                <div class="menu-small-icon icon-login"></div>
+                                Login
+                            </a>
+                            <div class="links-tab">|</div>
+                            <a class="menu-link menu-link-register xs-padding-left-10 sm-padding-left-10" href="https://gotranscript.com/register">
+                                Sign Up
+                                <div class="menu-small-icon icon-signup"></div>
+                            </a>
+                            <a class="menu-link menu-link-place_order" href="https://gotranscript.com/contact-us">
+                                <div class="menu-small-icon icon-contact_us"></div>
+                                Contact us
+                            </a>
+
+                            
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="main-header hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row gutter-0">
+
+                <!-- Logo -->
+                <div class="col-md-4 col-lg-3">
+
+                    
+                    <a class="header-logo" rel="home" href="https://gotranscript.com">
+                        <img src="https://d1tfzqz2829nun.cloudfront.net/img/logo.png" alt="Best Audio & Video transcription service" title="GoTranscript">
+                    </a>
+                </div>
+
+                <!-- Phone number -->
+                                <div class="col-lg-2 visible-lg-block">
+                    <div class="header__phone">
+                        <div class="header__phone-img icon-phone"></div>
+                        +1 (<span class="highlighted">347</span>) 809-6761
+                    </div>
+                </div>
+
+                <!--  menu -->
+                <div class="col-md-8 col-lg-7 main-menu__collapsing-block">
+                    <div class="menu collapsed">
+                        <ul style="margin: 0;">
+                            <li class="dropdown dropdown--open-on-hover main-menu__li" style="position: relative;">
+                                <a class="main-menu__link menu-dropdown__title" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="menu-dropdown__triangle"></span>
+                                    Services
+                                    <span class="menu-dropdown__triangle--down"></span>
+                                    <span class="menu-dropdown__triangle--up" style="display: none"></span>
+                                </a>
+                                <div class="dropdown-menu menu-dropdown__container">
+                                    <ul class="menu-dropdown__links">
+                                        <li><a href="https://gotranscript.com/audio-transcription-services">Audio Transcription</a></li>
+                                        <li><a href="https://gotranscript.com/video-transcription-services">Video Transcription</a></li>
+                                        <li><a href="https://gotranscript.com/translation-services">Translation (text/audio)</a></li>
+                                        <li><a href="https://gotranscript.com/subtitling-services">Foreign Subtitles</a></li>
+                                        <li><a href="https://gotranscript.com/closed-captioning-services">Captions</a></li>
+                                                                                    <li><a class="orange-color" href="https://gotranscript.com/all-services">View All Services<span class="double-right-pointing-angle">&#187;</span></a></li>
+                                                                                                                                                            </ul>
+                                </div>
+                            </li>
+                            <li class="main-menu__li"><a class="main-menu__link " href="https://gotranscript.com/transcription-cost-estimate">Cost Estimate</a></li>
+                                                            <li class="dropdown dropdown--open-on-hover main-menu__li" style="position: relative;">
+                                    <a class="main-menu__link menu-dropdown__title" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="menu-dropdown__triangle"></span>
+                                        Samples
+                                        <span class="menu-dropdown__triangle--down"></span>
+                                        <span class="menu-dropdown__triangle--up" style="display: none"></span>
+                                    </a>
+                                    <div class="dropdown-menu menu-dropdown__container">
+                                        <ul class="menu-dropdown__links">
+                                            <li><a href="https://gotranscript.com/our-transcription-samples">Transcriptions samples</a></li>
+                                            <li><a href="https://gotranscript.com/captions-and-subtitles-samples">Captions and Subtitles samples</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                                        <li class="main-menu__li"><a class="main-menu__link " href="https://gotranscript.com/cheap-transcription-rates">Pricing</a></li>
+                            <li class="main-menu__li"><a class="main-menu__link " href="https://gotranscript.com/about">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    
+    <div class="main-header mobile-menu__top visible-xs visible-sm">
+        <div class="container">
+            <div class="row gutter-0">
+
+                <!-- Logo -->
+                <div class="col-xs-9 col-sm-5 col-md-4 col-lg-3">
+
+                    
+                    <a class="header-logo" rel="home" href="https://gotranscript.com">
+                        <img src="https://d1tfzqz2829nun.cloudfront.net/img/logo.png" alt="Best Audio & Video transcription service" title="GoTranscript">
+                    </a>
+                </div>
+
+                <!-- Collapse button -->
+                <div class="col-xs-3 col-sm-7 visible-xs-block visible-sm-block">
+                    <button type="button" class="menu-toggle" id="menuToggle">
+                        <span class="menu-toggle__icon-container" style="display: block">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="main-header visible-xs visible-sm">
+        <div class="container">
+            <div class="row gutter-0">
+
+                <!-- The collapsing menu -->
+                <div class="col-xs-12 main-menu__collapsing-block">
+                    <div class="menu collapsed" id="menuCollapse">
+                        <ul class="panel-group" id="headerCollapseMenu" role="tablist" aria-multiselectable="false" style="margin: 0;">
+                                                            <li class="main-menu__li panel" style="position: relative;">
+                                        <a class="main-menu__link menu-dropdown__title" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <span class="menu-dropdown__triangle"></span>
+                                            Services
+                                            <span class="menu-dropdown__triangle--down"></span>
+                                            <span class="menu-dropdown__triangle--up" style="display: none"></span>
+                                        </a>
+                                    <div class="dropdown-menu menu-dropdown__container">
+                                        <ul class="menu-dropdown__links">
+                                            <li><a href="https://gotranscript.com/audio-transcription-services">Audio Transcription</a></li>
+                                            <li><a href="https://gotranscript.com/video-transcription-services">Video Transcription</a></li>
+                                            <li><a href="https://gotranscript.com/translation-services">Translation (text/audio)</a></li>
+                                            <li><a href="https://gotranscript.com/subtitling-services">Foreign Subtitles</a></li>
+                                            <li><a href="https://gotranscript.com/closed-captioning-services">Captions</a></li>
+                                                                                            <li><a href="https://gotranscript.com/all-services">View All Services</a></li>
+                                                                                                                                                                            </ul>
+                                    </div>
+                                </li>
+                                <li class="main-menu__li"><a class="main-menu__link " href="https://gotranscript.com/transcription-cost-estimate">Cost Estimate</a></li>
+                                                                    <li class="main-menu__li panel" style="position: relative;">
+                                            <a class="main-menu__link menu-dropdown__title" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <span class="menu-dropdown__triangle"></span>
+                                                Samples
+                                                <span class="menu-dropdown__triangle--down"></span>
+                                                <span class="menu-dropdown__triangle--up" style="display: none"></span>
+                                            </a>
+                                        <div class="dropdown-menu menu-dropdown__container">
+                                            <ul class="menu-dropdown__links">
+                                                <li><a href="https://gotranscript.com/our-transcription-samples">Transcriptions samples</a></li>
+                                                <li><a href="https://gotranscript.com/captions-and-subtitles-samples">Captions and Subtitles samples</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                                                <li class="main-menu__li">
+                                    <a class="main-menu__link " href="https://gotranscript.com/cheap-transcription-rates">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li class="main-menu__li">
+                                    <a class="main-menu__link " href="https://gotranscript.com/about">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="main-menu__li">
+                                    <a class="main-menu__link " href="https://gotranscript.com/register">
+                                        Sign Up
+                                    </a>
+                                </li>
+                                <li class="main-menu__li">
+                                    <a class="main-menu__link" href="https://gotranscript.com/login">
+                                        Login
+                                    </a>
+                                </li>
+                                <li class="main-menu__li">
+                                    <a class="main-menu__link" href="https://gotranscript.com/contact-us">
+                                        Contact us
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                        <div>
+                            <div style="height: 32px"></div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a class="menu__upload-button button-large orange" href="https://gotranscript.com/upload/transcriptions" style="margin-top: 0;">Order online</a>
+                                </div>
+                            </div>
+                            <div style="height: 24px"></div>
+                            <div class="row">
+                                <div class="col-xs-6 app-store__buttons--left">
+                                    <a href="https://play.google.com/store/apps/details?id=com.gotranscript" target="_blank">
+                                        <img class="img-responsive" data-src="https://d1tfzqz2829nun.cloudfront.net/img/pages/mobile/google-play-black.png" alt="google play">
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 app-store__buttons--right">
+                                    <a href="https://appsto.re/lt/TBeXbb.i" target="_blank">
+                                        <img class="img-responsive" data-src="https://d1tfzqz2829nun.cloudfront.net/img/pages/mobile/app-store-black.png" alt="app store">
+                                    </a>
+                                </div>
+                            </div>
+                            <div style="height: 32px"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    
+    
+	
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                                    <div class="alert alert-danger alert-dismissable" role="alert" style="margin-top: 20px;">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <ul>
+                                                            <li>reCAPTCHA validation failed</li>
+                                                        <li>If you need professional captioning services - <a style="color: black;" href="https://gotranscript.com/upload/captions">upload file here</a></li>
+                        </ul>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+    <div style="background: #10617f;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="subtitle-converter__title">Subtitle Converter</h1>
+                </div>
+            </div>
+            <div class="row hidden-sm hidden-xs">
+                <div class="col-md-4">
+                    <div class="subtitle-converter__grey-block">
+                        <img class="subtitle-converter__grey-block__img" src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/1.png" alt="1">
+                        <div class="subtitle-converter__grey-block__text">Upload File(s)</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subtitle-converter__grey-block">
+                        <img class="subtitle-converter__grey-block__img" src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/2.png" alt="2">
+                        <div class="subtitle-converter__grey-block__text">Select Format</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subtitle-converter__grey-block">
+                        <img class="subtitle-converter__grey-block__img" src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/3.png" alt="3">
+                        <div class="subtitle-converter__grey-block__text">Get File</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form action="/subtitle-converter" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="_token" value="pbD81hP3eXgFDF7ciupCfXI1PDiS8NsYTN2o8bEG">
+            <div class="row lg-row-equal-height md-row-equal-height">
+                <div class="col-md-4">
+                    <div class="subtitle-converter__upload__container">
+                        <label class="btn btn-file dashboard__box__button" style="line-height: 1.5">
+                            Upload <input class="js-files" type="file" name="files[]" multiple style="display: none;">
+                        </label>
+
+                        <div class="js-file-block" style="display: none;">
+                            <div style="border-top: 1px solid #dddddd; margin-top: 38px; margin-bottom: 38px;"></div>
+
+                            <div style="font-family: Doppio One, sans-serif; font-size: 23px; color: #555555; text-align: center; line-height: 1;">ATTACHED FILE(S)</div>
+
+                            <div class="js-file-container">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subtitle-converter__upload__container">
+                                                                            <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="SubRip" name="format" value="SubRip">
+                                <label for="SubRip" style="color: #444f5b;">SubRip (.srt)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="SpruceSubtitleFile" name="format" value="SpruceSubtitleFile">
+                                <label for="SpruceSubtitleFile" style="color: #444f5b;">Spruce Subtitle File (.stl)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="ScenaristClosedCaptions" name="format" value="ScenaristClosedCaptions">
+                                <label for="ScenaristClosedCaptions" style="color: #444f5b;">Scenarist Closed Captions (.scc)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="AdvancedSubStationAlpha" name="format" value="AdvancedSubStationAlpha">
+                                <label for="AdvancedSubStationAlpha" style="color: #444f5b;">Advanced Sub Station Alpha (.ass/.ssa)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="FlashXml" name="format" value="FlashXml">
+                                <label for="FlashXml" style="color: #444f5b;">Flash XML (.xml)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="TimedText1.0" name="format" value="TimedText1.0">
+                                <label for="TimedText1.0" style="color: #444f5b;">TimedText 1.0 (.xml/.ttml)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="QuickTimetext" name="format" value="QuickTimetext">
+                                <label for="QuickTimetext" style="color: #444f5b;">Quick Time Text (.qt.txt)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="WebVTT" name="format" value="WebVTT">
+                                <label for="WebVTT" style="color: #444f5b;">WebVTT (.vtt)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="NetflixTimedText" name="format" value="NetflixTimedText">
+                                <label for="NetflixTimedText" style="color: #444f5b;">Netflix Timed Text (.dfxp)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="SAMI" name="format" value="SAMI">
+                                <label for="SAMI" style="color: #444f5b;">SAMI (.smi)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="Csv" name="format" value="Csv">
+                                <label for="Csv" style="color: #444f5b;">CSV (.csv)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="MicroDVD" name="format" value="MicroDVD">
+                                <label for="MicroDVD" style="color: #444f5b;">MicroDVD (.sub)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="SubViewer2.0" name="format" value="SubViewer2.0">
+                                <label for="SubViewer2.0" style="color: #444f5b;">SubViewer2.0 (.sub)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="RealTime" name="format" value="RealTime">
+                                <label for="RealTime" style="color: #444f5b;">Real Time (.rt)</label>
+                            </div>
+                                                    <div class="checkbox radio" style="margin-bottom: 5px;">
+                                <input type="radio" id="YouTubesbv" name="format" value="YouTubesbv">
+                                <label for="YouTubesbv" style="color: #444f5b;">YouTube (.sbv)</label>
+                            </div>
+                                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subtitle-converter__upload__container">
+                        <button class="btn btn-file dashboard__box__button js-recaptcha" value="reset" style="width: 100%; line-height: 1.5;">Convert</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="social-share">
+                <div class="col-xs-12 col-md-6">
+                    <div class="social-button" style="margin-right: 10px;">
+                        <div class="fb-share-button" data-layout="button_count"></div>
+                    </div>
+                    <div class="social-button" style="margin-right: 10px;">
+                        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="feedback-body form-group clearfix" style="float: right;">
+                        <span style="font-size: 25px;">Rate our tool:</span>
+                        <div class="feedback feedback-rating  js-feedback-rating " style="background: transparent;margin-top: 0;float: none;display: inline-block;">
+                            <input type="hidden" name="rating">
+                                                            <div class="rating-star js-rating-star active" data-value="1"></div>
+                                                            <div class="rating-star js-rating-star active" data-value="2"></div>
+                                                            <div class="rating-star js-rating-star active" data-value="3"></div>
+                                                            <div class="rating-star js-rating-star active" data-value="4"></div>
+                                                            <div class="rating-star js-rating-star " data-value="5"></div>
+                                                    </div>
+                        <span style="font-size: 25px;">2561 votes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+
+        <div class="row sm-row-equal-height xs-margin-top-50" style="margin-top: 110px;">
+            <div class="col-sm-6">
+                <div class="subtitle-converter__ad">
+                    <img src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/cc.png" alt="captioning services" class="subtitle-converter__ad__img hidden-xs">
+                    <h2 class="subtitle-converter__ad__title">Captioning services</h2>
+                    <p class="subtitle-converter__ad__text">from only $1.04/min</p>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4">
+                            <a class="dashboard__box__button" href="https://gotranscript.com/closed-captioning-services">Click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="subtitle-converter__ad xs-margin-top-10">
+                    <img src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/play.png" alt="captioning services" class="subtitle-converter__ad__img hidden-xs">
+                    <h2 class="subtitle-converter__ad__title">Subtitling services</h2>
+                    <p class="subtitle-converter__ad__text">Simple flat rate of $7.50/min</p>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4">
+                            <a class="dashboard__box__button" href="https://gotranscript.com/subtitling-services">Click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row sm-row-equal-height">
+            <div class="hidden-xs" style="height: 75px;"></div>
+            <div class="col-sm-12">
+                <div class="subtitle-converter__ad subtitle-converter__ad-orange xs-margin-top-10">
+                    <img src="https://d1tfzqz2829nun.cloudfront.net/img/pages/subtitle-converter/a.png" class="subtitle-converter__ad__img hidden-xs">
+                    <div class="text-center">
+                        <img src="https://d1tfzqz2829nun.cloudfront.net/img/textroyal.png" style="margin-bottom: 30px;" alt="Writing Services" />
+                    </div>
+                    <h2 class="subtitle-converter__ad__title">Writing Services</h2>
+                    <p class="subtitle-converter__ad__text">from only $0.03/word</p>
+                    <div>
+                        <a class="dashboard__box__button" href="https://textroyal.com">Click here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="page__title" style="margin-bottom: 35px; text-align: left;">
+                    Convert Captions or Subtitle Files to Different Formats Online
+                </h2>
+                <div class="page__text">
+                    A lot of our clients need to have their SRT caption or subtitle files converted into other formats so that they could be used with various types of software. For this reason, we created our own subtitles/captions converter. In this way, our clients are able to convert SRT files by themselves at their convenience. This is a great way to make your files more versatile!
+                </div>
+                <div class="page__text">
+                    <h3 style="margin-bottom: 0; font-size: 20px; font-weight: bold;">The Explanation of Caption and Subtitle Formats:</h3><br>
+
+                    
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>CSV</b> - Comma separated values. Can be viewed in Excel.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">csv to  srt, csv to  stl, csv to  scc, csv to  ass, csv to  ssa, csv to  xml, csv to  ttml, csv to  qt, csv to  txt, csv to  vtt, csv to  dfxp, csv to  smi, csv to  sub, csv to  rt, csv to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>DFXP</b> - Commonly used for Flash video captioning.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">dfxp to  srt, dfxp to  stl, dfxp to  scc, dfxp to  ass, dfxp to  ssa, dfxp to  xml, dfxp to  ttml, dfxp to  qt, dfxp to  txt, dfxp to  vtt, dfxp to  smi, dfxp to  csv, dfxp to  sub, dfxp to  rt, dfxp to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>QT</b> - File format created for Apple&#039;s QuickTime Player.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">qt to  srt, qt to  stl, qt to  scc, qt to  ass, qt to  ssa, qt to  xml, qt to  ttml, qt to  txt, qt to  vtt, qt to  dfxp, qt to  smi, qt to  csv, qt to  sub, qt to  rt, qt to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>RT</b> - These are RealText captions for RealMedia audio and video.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">rt to  srt, rt to  stl, rt to  scc, rt to  ass, rt to  ssa, rt to  xml, rt to  ttml, rt to  qt, rt to  txt, rt to  vtt, rt to  dfxp, rt to  smi, rt to  csv, rt to  sub, rt to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SBV</b> - This file format is used by Youtube videos (closed captions and subtitles). You download captions from Youtube in this format.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">sbv to  srt, sbv to  stl, sbv to  scc, sbv to  ass, sbv to  ssa, sbv to  xml, sbv to  ttml, sbv to  qt, sbv to  txt, sbv to  vtt, sbv to  dfxp, sbv to  smi, sbv to  csv, sbv to  sub, sbv to  rt</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SCC</b> - Used for DVD, web media, and Line 21 broadcast closed captions. Also used by iPods, iPads, iPhones, and iTunes.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">scc to  srt, scc to  stl, scc to  ass, scc to  ssa, scc to  xml, scc to  ttml, scc to  qt, scc to  txt, scc to  vtt, scc to  dfxp, scc to  smi, scc to  csv, scc to  sub, scc to  rt, scc to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SMI</b> - Created by Microsoft, this format is used for Windows Media audio and video.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">smi to  srt, smi to  stl, smi to  scc, smi to  ass, smi to  ssa, smi to  xml, smi to  ttml, smi to  qt, smi to  txt, smi to  vtt, smi to  dfxp, smi to  csv, smi to  sub, smi to  rt, smi to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SRT</b> - A very common file type, supported by a variety of subtitle creation programs and many software video players, for example, on Facebook or Youtube.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">srt to  stl, srt to  scc, srt to  ass, srt to  ssa, srt to  xml, srt to  ttml, srt to  qt, srt to  txt, srt to  vtt, srt to  dfxp, srt to  smi, srt to  csv, srt to  sub, srt to  rt, srt to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SSA</b> - SSA stands for Sub Station Alpha. It&#039;s the file format used by the popular subtitle editor, SubStation Alpha. This format is widely used by fansubb<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">ssa to  srt, ssa to  stl, ssa to  scc, ssa to  ass, ssa to  xml, ssa to  ttml, ssa to  qt, ssa to  txt, ssa to  vtt, ssa to  dfxp, ssa to  smi, ssa to  csv, ssa to  sub, ssa to  rt, ssa to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>STL</b> - Used for captioning/subtitling PAL broadcast media.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">stl to  srt, stl to  scc, stl to  ass, stl to  ssa, stl to  xml, stl to  ttml, stl to  qt, stl to  txt, stl to  vtt, stl to  dfxp, stl to  smi, stl to  csv, stl to  sub, stl to  rt, stl to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>SUB</b> - Exists two different .sub formats: SubViewer and MicroDVD.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">sub to  srt, sub to  stl, sub to  scc, sub to  ass, sub to  ssa, sub to  xml, sub to  ttml, sub to  qt, sub to  txt, sub to  vtt, sub to  dfxp, sub to  smi, sub to  csv, sub to  rt, sub to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>TTML</b> - Timed Text Markup Language. It is used for exchanging timed text information between legacy content formats.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">ttml to  srt, ttml to  stl, ttml to  scc, ttml to  ass, ttml to  ssa, ttml to  xml, ttml to  qt, ttml to  txt, ttml to  vtt, ttml to  dfxp, ttml to  smi, ttml to  csv, ttml to  sub, ttml to  rt, ttml to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>TXT</b> - QuickTime Text format is used for Mac QuickTime player.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">txt to  srt, txt to  stl, txt to  scc, txt to  ass, txt to  ssa, txt to  xml, txt to  ttml, txt to  qt, txt to  vtt, txt to  dfxp, txt to  smi, txt to  csv, txt to  sub, txt to  rt, txt to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>VTT</b> - This caption format is used by HTML5 media players.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">vtt to  srt, vtt to  stl, vtt to  scc, vtt to  ass, vtt to  ssa, vtt to  xml, vtt to  ttml, vtt to  qt, vtt to  txt, vtt to  dfxp, vtt to  smi, vtt to  csv, vtt to  sub, vtt to  rt, vtt to  sbv</div>
+                                            <div class="js-expandable" style="cursor: pointer;">
+                            <b>XML</b> - This is an XML format for encoding captions onto Flash videos.<br>
+                        </div>
+                        <div class="subtitle-converter__expandable-formats">xml to  srt, xml to  stl, xml to  scc, xml to  ass, xml to  ssa, xml to  ttml, xml to  qt, xml to  txt, xml to  vtt, xml to  dfxp, xml to  smi, xml to  csv, xml to  sub, xml to  rt, xml to  sbv</div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <template class="js-file-template">
+        <div style="position: relative; margin-top: 28px; font-size: 16px; color: #555555; line-height: 40px; background: #ebedf4; border-radius: 2px; text-align: center;">
+            <div class="js-filename" style="width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-left: 15px; padding-right: 44px;">no-file.srt</div>
+            <span class="glyphicon glyphicon-remove js-remove" style="position: absolute; top: 12px; right: 15px; cursor: pointer;"></span>
+        </div>
+    </template>
+
+    <div class="footer-upper__2-buttons footer__2-buttons xs-padding-top-40 xs-padding-bottom-40" style="  margin-top: 50px;  ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="footer-upper__buttons-title">Ready to get started?</div>
+                    <div class="visible-xs" style="height: 12px"></div>
+                    <a href="https://gotranscript.com/upload/transcriptions" class="button-medium button-translation-head footer-upper__button">ORDER ONLINE</a>
+                    <div class="visible-xs" style="height: 14px"></div>
+                                            <div class="upload-review__block">
+            <div class="icon-review-star-black upload-review__star">&#9733;</div>
+            <div class="icon-review-star-black upload-review__star">&#9733;</div>
+            <div class="icon-review-star-black upload-review__star">&#9733;</div>
+            <div class="icon-review-star-black upload-review__star">&#9733;</div>
+            <div class="icon-review-star-black upload-review__star">&#9733;</div>
+        <span class="upload-review__points">4.9/5</span>
+    <span class="upload-review__vertical-line" style="background-color: #fff; opacity: 0.5;"></span>
+    <a href="#" data-toggle="modal" data-target="#reviewsModal" class="upload-review__reviews-link">2201 customer reviews</a>
+</div>
+
+                                        <div class="visible-xs" style="height: 16px"></div>
+                </div>
+                <div class="col-sm-6 hidden-xs">
+                    <div class="footer-upper__buttons-title">Have a large project?</div>
+                    <a href="https://gotranscript.com/enterprise-transcription-solutions" class="button-medium button-translation-head">EXPLORE GT ENTERPRISE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="site-footer hidden-xs">
+    <div class="container">
+        <div class="col-xs-12 col-sm-5 col-md-3 site-footer__left-side">
+            <img class="lazy" data-src="https://d1tfzqz2829nun.cloudfront.net/img/logo-black-white.png" alt="GoTranscript.com" style="width: initial;">
+
+            <div class="footer__links-below-logo">
+                <a href="https://gotranscript.com/about">About us</a> |
+                <a href="https://gotranscript.com/blog">Blog</a> |
+                <a href="https://gotranscript.com/privacy">Privacy</a>
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/speechtotextservice" class="footer__social-link" target="_blank"><span class="icon-facebook-letter"></span></a>
+                <a href="https://twitter.com/gotranscriptcom" class="footer__social-link" target="_blank"><span class="icon-twitter-bird"></span></a>
+            </div>
+
+            <h3 class="footer__get-in-touch">get in touch</h3>
+            <div class="contacts">
+                <ul>
+                    <li class="footer-list-icon"><img data-src="https://d1tfzqz2829nun.cloudfront.net/img/components/header-footer/phone.png" alt="phone" style="margin-right: 15px; vertical-align: middle;"><span>+1 (347) 809-6761</span></li>
+                    <li class="footer-list-icon"><img data-src="https://d1tfzqz2829nun.cloudfront.net/img/components/header-footer/skype.png" alt="skype" style="margin-right: 15px; vertical-align: middle;"><span><a href="skype:gotranscript?chat">gotranscript</a></span></li>
+                    <li class="footer-list-icon footer-list-icon--last"><img data-src="https://d1tfzqz2829nun.cloudfront.net/img/components/header-footer/mail.png" alt="mail" style="margin-right: 15px; vertical-align: middle;"><span><a href="https://gotranscript.com/contact-us">Contact us</a></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-7 col-md-9 xs-margin-top-30 site-footer__right-side">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="footer__links-header">Orders &amp; Discounts</div>
+                    <ul class="footer__links">
+                        <li><a href="https://gotranscript.com/transcription-services-free-trial">Free trial</a></li>
+                        <li><a href="https://gotranscript.com/customer-loyalty-discount-program">Customer Loyalty Program</a></li>
+                        <li><a href="https://gotranscript.com/transcription-services-for-students">Student discount</a></li>
+                        <li><a href="https://gotranscript.com/translation-cost-estimate">Pricing calculator</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="visible-xs" style="height: 25px;"></div>
+                    <div class="footer__links-header">Tools</div>
+                    <ul class="footer__links">
+                        <li><a href="https://gotranscript.com/voice-recorder">Mobile app</a></li>
+                        <li><a href="https://gotranscript.com/subtitle-converter">Subtitle converter</a></li>
+                        <li><a href="https://gotranscript.com/translation-services/american-to-british">US-to-UK converter</a></li>
+                        <li><a href="https://gotranscript.com/youtube-downloader">YouTube downloader</a></li>
+                        <li><a href="https://gotranscript.com/transcription-api">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="visible-sm"><div class="clearfix"></div></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="visible-sm visible-xs" style="height: 25px;"></div>
+                    <div class="footer__links-header">Services</div>
+                    <ul class="footer__links">
+                        <li><a href="https://gotranscript.com/audio-transcription-services">Audio transcription</a></li>
+                        <li><a href="https://gotranscript.com/video-transcription-services">Video transcription</a></li>
+                        <li><a href="https://gotranscript.com/translation-services">Translations</a></li>
+                        <li><a href="https://gotranscript.com/subtitling-services">Subtitling</a></li>
+                        <li><a href="https://gotranscript.com/closed-captioning-services">Captions</a></li>
+                    </ul>
+                </div>
+
+                <div class="visible-md visible-lg"><div class="clearfix"></div></div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div style="height: 25px;"></div>
+                    <div class="footer__links-header">About</div>
+                    <ul class="footer__links">
+                        <li><a href="https://gotranscript.com/review">Feedback</a></li>
+                        <li><a href="https://gotranscript.com/cheap-transcription-rates">Pricing</a></li>
+                        <li><a href="https://gotranscript.com/confidential-transcription-services">Confidentiality agreement</a></li>
+                        <li><a href="https://gotranscript.com/faq">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="visible-sm"><div class="clearfix"></div></div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div style="height: 25px;"></div>
+                    <div class="footer__links-header">For transcriptionists</div>
+                    <ul class="footer__links">
+                        <li><a href="https://gotranscript.com/transcription-jobs">Work</a></li>
+                        <li><a href="https://gotranscript.com/affiliate">Affiliate</a></li>
+                        <li><a href="https://gotranscript.com/transcribing-software">Transcription tool</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div style="height: 25px;"></div>
+                    <div class="footer__links-header">Special</div>
+                    <ul class="footer__links" style="margin-top: 0;">
+                        <li><a href="https://gotranscript.com/focus-group-transcription-services">Focus group transcription</a></li>
+                        <li><a href="https://gotranscript.com/transcription-services/legal-transcription">Legal transcription</a></li>
+                        <li><a href="https://gotranscript.com/transcription-services/medical-transcription">Medical transcription</a></li>
+                        <li><a href="https://gotranscript.com/academic-transcription-services">Academic transcription</a></li>
+                        <li><a href="https://gotranscript.com/transcription-services/research-transcription">Research transcription</a></li>
+                        <li><a href="https://gotranscript.com/transcription-services/verbatim-transcription">Verbatim transcription</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 20px"></div>
+</div>
+
+<div class="site-footer visible-xs">
+    <div class="container">
+
+
+
+        <div class="footer__links-container contacts">
+            <div>
+                <img class="lazy" data-src="https://d1tfzqz2829nun.cloudfront.net/img/logo-black-white.png" alt="GoTranscript.com" style="width: 163px;">
+            </div>
+            <div>
+                <a href="https://www.facebook.com/speechtotextservice" class="footer__social-link" target="_blank">
+                    <span class="icon-facebook-letter"></span>
+                </a>
+                <a href="https://twitter.com/gotranscriptcom" class="footer__social-link" target="_blank">
+                    <span class="icon-twitter-bird"></span>
+                </a>
+            </div>
+            <h3 class="footer__get-in-touch">get in touch</h3>
+            <ul class="footer__get-in-touch--ul">
+                <li>
+                    <span class="icon-phone-yellow" style="margin-right: 5px; vertical-align: middle;"></span>
+                    <span class="footer__get-in-touch--li-last-span">+1 (347) 809-6761</span>
+                </li>
+                <li>
+                    <span class="icon-skype-letter-yellow" style="margin-right: 5px; vertical-align: middle;"></span>
+                    <span class="footer__get-in-touch--li-last-span"><a href="skype:gotranscript?chat">gotranscript</a></span>
+                </li>
+                <li>
+                    <span class="icon-envelope-yellow" style="margin-right: 5px; vertical-align: middle; margin-bottom: 4px;"></span>
+                    <span class="footer__get-in-touch--li-last-span"><a href="https://gotranscript.com/contact-us">Contact us</a></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__links-container">
+            <a class="footer__links-header" href="https://gotranscript.com/about">About us</a>
+        </div>
+
+        <div class="footer__links-container">
+            <a class="footer__links-header" href="https://gotranscript.com/blog">Blog</a>
+        </div>
+
+        <div class="footer__links-container">
+            <a class="footer__links-header" href="https://gotranscript.com/privacy">Privacy</a>
+        </div>
+
+        <div class="panel-group" id="footerCollapseMenu" role="tablist" aria-multiselectable="true">
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingOrders">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseOrders" aria-expanded="false" aria-controls="collapseOrders">
+                        Orders &amp; Discounts
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseOrders" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingOrders">
+                    <li><a href="https://gotranscript.com/transcription-services-free-trial">Free trial</a></li>
+                    <li><a href="https://gotranscript.com/customer-loyalty-discount-program">Customer Loyalty Program</a></li>
+                    <li><a href="https://gotranscript.com/transcription-services-for-students">Student discount</a></li>
+                    <li><a href="https://gotranscript.com/translation-cost-estimate">Pricing calculator</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingTools">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseTools" aria-expanded="false" aria-controls="collapseTools">
+                        Tools
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseTools" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingTools">
+                    <li><a href="https://gotranscript.com/voice-recorder">Mobile app</a></li>
+                    <li><a href="https://gotranscript.com/subtitle-converter">Subtitle converter</a></li>
+                    <li><a href="https://gotranscript.com/translation-services/american-to-british">US-to-UK converter</a></li>
+                    <li><a href="https://gotranscript.com/youtube-downloader">YouTube downloader</a></li>
+                    <li><a href="https://gotranscript.com/transcription-api">API</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingServices">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseServices" aria-expanded="false" aria-controls="collapseServices">
+                        Services
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseServices" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingServices">
+                    <li><a href="https://gotranscript.com/audio-transcription-services">Audio transcription</a></li>
+                    <li><a href="https://gotranscript.com/video-transcription-services">Video transcription</a></li>
+                    <li><a href="https://gotranscript.com/translation-services">Translations</a></li>
+                    <li><a href="https://gotranscript.com/subtitling-services">Subtitling</a></li>
+                    <li><a href="https://gotranscript.com/closed-captioning-services">Captions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingAbout">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+                        About
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseAbout" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingAbout">
+                    <li><a href="https://gotranscript.com/review">Feedback</a></li>
+                    <li><a href="https://gotranscript.com/cheap-transcription-rates">Pricing</a></li>
+                    <li><a href="https://gotranscript.com/confidential-transcription-services">Confidentiality agreement</a></li>
+                    <li><a href="https://gotranscript.com/faq">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingFor">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+                        For transcriptionists
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseFor" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingFor">
+                    <li><a href="https://gotranscript.com/transcription-jobs">Work</a></li>
+                    <li><a href="https://gotranscript.com/affiliate">Affiliate</a></li>
+                    <li><a href="https://gotranscript.com/transcribing-software">Transcription tool</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-container panel">
+                <div class="panel-heading" role="tab" id="headingSpecial">
+                    <a class="footer__links-header" data-toggle="collapse" data-parent="#footerCollapseMenu" href="#collapseSpecial" aria-expanded="false" aria-controls="collapseSpecial">
+                        Special
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--down"></span>
+                        <span class="footer-menu-dropdown__triangle footer-menu-dropdown__triangle--up" style="display: none"></span>
+                    </a>
+                </div>
+                <ul id="collapseSpecial" class="footer__links panel-collapse collapse" role="tabpanel" aria-labelledby="headingSpecial">
+                    <li><a href="https://gotranscript.com/focus-group-transcription-services">Focus group transcription</a></li>
+                    <li><a href="https://gotranscript.com/transcription-services/legal-transcription">Legal transcription</a></li>
+                    <li><a href="https://gotranscript.com/transcription-services/medical-transcription">Medical transcription</a></li>
+                    <li><a href="https://gotranscript.com/academic-transcription-services">Academic transcription</a></li>
+                    <li><a href="https://gotranscript.com/transcription-services/research-transcription">Research transcription</a></li>
+                    <li><a href="https://gotranscript.com/transcription-services/verbatim-transcription">Verbatim transcription</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="height: 32px"></div>
+        <div class="row">
+            <div class="col-xs-6 app-store__buttons--left">
+                <a href="https://play.google.com/store/apps/details?id=com.gotranscript" target="_blank">
+                    <img class="img-responsive" data-src="https://d1tfzqz2829nun.cloudfront.net/img/pages/mobile/google-play-black.png" alt="google play">
+                </a>
+            </div>
+            <div class="col-xs-6 app-store__buttons--right">
+                <a href="https://appsto.re/lt/TBeXbb.i" target="_blank">
+                    <img class="img-responsive" data-src="https://d1tfzqz2829nun.cloudfront.net/img/pages/mobile/app-store-black.png" alt="app store">
+                </a>
+            </div>
+        </div>
+        <div style="height: 32px"></div>
+    </div>
+</div>
+    <script src="https://d1tfzqz2829nun.cloudfront.net/js/app.js?v=f011cd69e3d62cf36d7b9649289c3bba"></script>
+	                                
+    <div class="modal fade" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="reviewsModalLabel">
+        <div class="modal-dialog xs-width-inherit" role="document" style="width: 80%; max-width: 1170px;">
+            <div class="modal-content feedback-body">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <a class="reviews-modal-button collapsed" data-toggle="collapse" data-parent="#reviews-accordion" href="#reviews-collapse-submit">Submit rating</a>
+                    <a class="reviews-modal-button" data-toggle="collapse" data-parent="#reviews-accordion" href="#reviews-collapse-list">Check reviews</a>
+                </div>
+                <div class="modal-body">
+    
+                    <div class="row review-comments lg-row-equal-height md-row-equal-height">
+	<div class="col-md-4">
+		<div class="review-comments__box">
+			<div class="review-comments__logo review-comments__logo--1"></div>
+			<div class="review-comments__quotes"></div>
+			<div class="clearfix"></div>
+			<div class="review-comments__content">
+				One of the bigger advantages of choosing GoTranscript is that it can cater for the more complex projects you may need to handle
+			</div>
+			<div class="review-comments__footer">
+				<div class="review-comments__author">By Jonas DeMuro and Brian Turner</div>
+				<div class="review-comments__date" style="padding-top: 18px;">Nov 04, 2019</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="review-comments__box">
+			<div class="review-comments__logo  review-comments__logo--3"></div>
+			<div class="review-comments__quotes"></div>
+			<div class="clearfix"></div>
+			<div class="review-comments__content">
+				Many podcasters use transcription services like GoTranscript to create written records of their broadcasts.
+			</div>
+			<div class="review-comments__footer">
+				<div class="review-comments__author">By Andrew Arnold</div>
+				<div class="review-comments__date">Jul 26, 2019</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="review-comments__box">
+			<div class="review-comments__logo review-comments__logo--2"></div>
+			<div class="review-comments__quotes"></div>
+			<div class="clearfix"></div>
+			<div class="review-comments__content">
+				Fortunately, transcription services such as GoTranscript, can help you out. GoTranscript uses humans (freelancers) to transcribe your files, not an automatic speech...
+			</div>
+			<div class="review-comments__footer">
+				<div class="review-comments__author">By Signe Brewster</div>
+				<div class="review-comments__date">Oct 26, 2019</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+                    
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-3">
+                            <div class="feedback-site-rating">
+                                <div class="feedback-site-rating__number">4.9</div>
+                                <div class="feedback-site-rating__label">Site rating</div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-lg-9">
+                            <div class="js-review-filter-container" style="text-align: center">
+    <div class="reviews-modal__title">Check reviews from our clients</div>
+    <div class="filtering">
+        <label class="filtering__label">Filter by:</label>
+
+                    <a href="https://gotranscript.com/review?rating=5" class="filtering__rating js-review-rating">
+                                    <div class="filtering__checkbox"></div>
+                
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                
+                                <span class="upload-feedback__star-count">(1876)</span>
+            </a>
+                    <a href="https://gotranscript.com/review?rating=4" class="filtering__rating js-review-rating">
+                                    <div class="filtering__checkbox"></div>
+                
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                
+                                <span class="upload-feedback__star-count">(281)</span>
+            </a>
+                    <a href="https://gotranscript.com/review?rating=3" class="filtering__rating js-review-rating">
+                                    <div class="filtering__checkbox"></div>
+                
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                
+                                <span class="upload-feedback__star-count">(38)</span>
+            </a>
+                    <a href="https://gotranscript.com/review?rating=2" class="filtering__rating js-review-rating">
+                                    <div class="filtering__checkbox"></div>
+                
+                                    <span class="filtering__star"></span>
+                                    <span class="filtering__star"></span>
+                
+                                <span class="upload-feedback__star-count">(4)</span>
+            </a>
+                    <a href="https://gotranscript.com/review?rating=1" class="filtering__rating js-review-rating">
+                                    <div class="filtering__checkbox"></div>
+                
+                                    <span class="filtering__star"></span>
+                
+                                <span class="upload-feedback__star-count">(2)</span>
+            </a>
+        
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+
+                        </div>
+                    </div>
+
+                    <div id="reviews-accordion">
+                        <div class="panel">
+                            <div id="reviews-collapse-list" class="collapse in">
+                                <div class="js-review-list-container">
+    <div class="pagination-container pagination-li-margin-0 pagination-li-padding-0" style="margin: 0 15px;">
+        <ul class="pagination" style="margin-top: 20px;margin-bottom: 0;">
+        <li class=" disabled">
+            <a href="review?page=1">First</a>
+        </li>
+                                                <li class=" active hidden-xs">
+                    <a href="review?page=1">1</a>
+                </li>
+                                                            <li class=" hidden-xs">
+                    <a href="review?page=2">2</a>
+                </li>
+                                                            <li class=" hidden-xs">
+                    <a href="review?page=3">3</a>
+                </li>
+                                                            <li class=" hidden-xs">
+                    <a href="review?page=4">4</a>
+                </li>
+                                                            <li class=" hidden-xs">
+                    <a href="review?page=5">5</a>
+                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="">
+            <a href="review?page=2">Next</a>
+        </li>
+    </ul>
+    </div>
+
+    <div class="feedback-list">
+                                    <div class="row lg-row-equal-height md-row-equal-height">
+                                        
+                    <div class="col-xs-12 col-md-6" style="margin-top: -10px">
+                        <div class="feedback-list__box-external ">
+                            <div class="feedback-list__top">TODAY’S REVIEW</div>
+                            <div class="feedback-list__box">
+                                <div class="feedback-list__author">hassan</div>
+                                <div class="feedback-list__verified">Verified order</div>
+                                <div class="feedback-list__rating">
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                    </div>
+                                <div class="clearfix"></div>
+                                <div class="feedback-list__content js-feedback-list-content">Amazing service</div>
+                                <div class="feedback-list__date">October 7th, 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                                                            
+                    <div class="col-xs-12 col-md-6" style="margin-top: -10px">
+                        <div class="feedback-list__box-external ">
+                            <div class="feedback-list__top">TODAY’S REVIEW</div>
+                            <div class="feedback-list__box">
+                                <div class="feedback-list__author">Joy Hunter</div>
+                                <div class="feedback-list__verified">Verified order</div>
+                                <div class="feedback-list__rating">
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                    </div>
+                                <div class="clearfix"></div>
+                                <div class="feedback-list__content js-feedback-list-content">I had a long speech to transcribe and just couldn&#039;t get to it. I sent it to Go Transcript and the next day I had it completely done. I had a small bit of tweaking to do, but they are very accurate!</div>
+                                <div class="feedback-list__date">October 7th, 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+                                                <div class="row lg-row-equal-height md-row-equal-height">
+                                        
+                    <div class="col-xs-12 col-md-6" style="margin-top: -10px">
+                        <div class="feedback-list__box-external ">
+                            <div class="feedback-list__top">TODAY’S REVIEW</div>
+                            <div class="feedback-list__box">
+                                <div class="feedback-list__author">James Frederick</div>
+                                <div class="feedback-list__verified">Verified order</div>
+                                <div class="feedback-list__rating">
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                    </div>
+                                <div class="clearfix"></div>
+                                <div class="feedback-list__content js-feedback-list-content">Excellent service.  Very quick turnaround. </div>
+                                <div class="feedback-list__date">October 7th, 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                                                            
+                    <div class="col-xs-12 col-md-6" style="margin-top: -10px">
+                        <div class="feedback-list__box-external ">
+                            <div class="feedback-list__top">TODAY’S REVIEW</div>
+                            <div class="feedback-list__box">
+                                <div class="feedback-list__author">Philippe Bornet</div>
+                                <div class="feedback-list__verified">Verified order</div>
+                                <div class="feedback-list__rating">
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                            <div class="feedback-list__rating-star"></div>
+                                                                    </div>
+                                <div class="clearfix"></div>
+                                <div class="feedback-list__content js-feedback-list-content">I found the service very convenient and professional. I used it for having burned subtitles in English recoded and translated in French: I appreciated the accuracy in the work and the ability to ask such a complex task in the &quot;comments&quot; of the order. Thanks!</div>
+                                <div class="feedback-list__date">October 6th, 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+                        </div>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div id="reviews-collapse-submit" class="collapse">
+                                <div class="form-wrapper" id="write">
+    <form method="post" action="https://gotranscript.com/review">
+        <input type="hidden" name="_token" value="pbD81hP3eXgFDF7ciupCfXI1PDiS8NsYTN2o8bEG">
+
+        <div class="row">
+            <div class="col-xs-12">
+                                    <div class="alert alert-danger">
+                        <ul>
+                                                            <li>reCAPTCHA validation failed</li>
+                                                    </ul>
+                    </div>
+                            </div>
+
+            <div class="col-xs-12 col-md-7">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="Your or Company name" value="">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-5">
+                <div class="form-group clearfix">
+                    <span class="label">Rate our service</span>
+                    <div class="feedback-rating js-feedback-rating">
+                        <input type="hidden" name="rating">
+                                                    <div class="rating-star"></div>
+                                                    <div class="rating-star"></div>
+                                                    <div class="rating-star"></div>
+                                                    <div class="rating-star"></div>
+                                                    <div class="rating-star"></div>
+                                            </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <textarea class="form-control" name="content" placeholder="Your feedback"></textarea>
+                </div>
+
+                <button class="button pull-right" type="submit">Submit review</button>
+            </div>
+
+        </div>
+    </form>
+</div>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <script>
+            $(document).ready(function() {
+                $('.reviews-modal-button').click(function() {
+                    if (! $(this).hasClass('collapsed')) {
+                        return false;
+                    }
+                });
+            });
+        </script>
+    
+
+    <script>
+        $(document).ready(function() {
+
+            // allow to initialize function only once
+            if (typeof initialized_random04938456 === 'undefined') {
+                initialized_random04938456 = true;
+            } else {
+                return;
+            }
+
+            $(document).on('click', 'a.js-review-rating, .js-review-list-container .pagination a', function () {
+                var url = $(this).attr('href');
+
+                $.get(url).done(function (response) {
+                    $('.js-review-list-container').html(response.list);
+                    $('.js-review-filter-container').html(response.filter);
+                });
+
+                return false;
+            });
+        });
+    </script>
+
+
+    
+    <script>
+        var recaptchaCallback = function() {
+            $(".js-recaptcha").each(function () {
+                var el = this;
+                grecaptcha.render(this, {
+                    "sitekey": '6LfzZKEUAAAAAMBxcl2SC_EqKpRKNxLa12VxqE-I',
+                    "size": "invisible",
+                    "badge": "bottomleft",
+                    "callback": function (token) {
+                        $(el).closest("form").submit();
+                        grecaptcha.reset();
+                    }
+                });
+            });
+        };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit" async defer></script>
+
+    <script>
+        // expandable text
+        $(function () {
+           $('.js-expandable').click(function () {
+               $(this).next().slideToggle();
+           });
+        });
+
+        // attached file
+        $(function () {
+            $('.js-files').change(function () {
+                $('.js-file-block').show();
+                var fileContainer = $('.js-file-container');
+                var fileTemplate = $('.js-file-template');
+
+                // remove files that were attached before
+                fileContainer.html('');
+
+                var files = $(this)[0].files;
+                $.each(files, function (k, file) {
+                    // browser returns fake path, get only filename
+                    var filename = file.name.split(/(\\|\/)/g).pop();
+
+                    // insert into template filename
+                    var html = $('<div>', {html:fileTemplate.html()});
+                    html.find('.js-filename').text(filename);
+
+                    fileContainer.append(html.html());
+                });
+            });
+
+            $('body').on('click', '.js-remove', function () {
+                $('.js-file-container').html('');
+
+                // reset file input
+                var files = $('.js-files');
+                $.each(files, function (k, file) {
+                    $(file).val('');
+                });
+
+            });
+        });
+    </script>
+
+
+        <script type="application/ld+json">
+{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "brand": "GoTranscript",
+    "name": "Subtitle converter",
+    "description": "Online subtitle converter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "itemReviewed": "Subtitle converter",
+        "ratingValue": "4.2",
+        "reviewCount": "2561"
+    },
+    "image": [
+        "https://gotranscript.com/img/pages/homepage/social.png"
+    ]
+}
+</script>
+    <script>
+        $(window).ready(function () {
+            $('body').on('mouseover', '.js-feedback-rating .js-rating-star', function () {
+                $(this).parent().children('.rating-star').removeClass('active');
+
+                $(this).prevAll('.rating-star').addClass('active');
+                $(this).addClass('active');
+            });
+
+            $('body').on('click', '.js-feedback-rating .js-rating-star', function () {
+                $(this).parent().removeClass('js-feedback-rating');
+
+                var data = $(this).data('value');
+
+                $.post('https://gotranscript.com/youtube-downloader/rate', {
+                    _token: 'pbD81hP3eXgFDF7ciupCfXI1PDiS8NsYTN2o8bEG',
+                    rating: data,
+                    type: 'subtitle_converter'
+                });
+            });
+        });
+    </script>
+    <script>
+    $(function() {
+        $("img[data-src]").lazyload({
+            threshold: 200, 
+            data_attribute: "src", 
+        });
+    });
+</script>
+
+            <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=318779911606858";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>        <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-24038916-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+        <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5318793"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>                <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2145810142340261');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1"
+         src="https://www.facebook.com/tr?id=2145810142340261&ev=PageView
+&noscript=1"/>
+</noscript>            </body>
+</html>
