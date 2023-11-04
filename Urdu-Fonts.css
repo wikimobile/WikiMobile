@@ -46,6 +46,15 @@
 		url("../fonts/Al_Qalam_Quran_Majeed_Web2_D_new.html");
 }
 
+@font-face{
+    font-family:Indo-Pak WBW;
+    src:local("Naskh-Nastaleeq-IndoPak-QWBW"),
+		url("https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff");
+}
+
+
+
+
 /*@font-face{*/
 /*    font-family:Al-Qalam-V1;*/
 /*    src:local("Al Qalam Quran Majeed Web2_D"),*/
