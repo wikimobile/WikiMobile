@@ -46,11 +46,11 @@
 		url("../fonts/Al_Qalam_Quran_Majeed_Web2_D_new.html");
 }
 
-@font-face{
-    font-family: 'Naskh-Nastaleeq-IndoPak-QWBW' ;
-    src:local("https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff"),
-		url("https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff") format('woff');
-}
+@font-face {font-family: 'Indo-Pak'; 
+	    src: url('https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff'); 
+	    src: local('Indo-Pak'), 
+	    url('https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff) format('woff');
+	   }
 
 
 
