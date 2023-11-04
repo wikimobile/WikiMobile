@@ -49,7 +49,7 @@
 @font-face{
     font-family: 'Naskh-Nastaleeq-IndoPak-QWBW' ;
     src:local("Naskh-Nastaleeq-IndoPak-QWBW"),
-		url("https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff");
+		url("https://quranwbw.com/assets/fonts/Naskh-Nastaleeq-IndoPak-QWBW.woff")format('woff');
 }
 
 
